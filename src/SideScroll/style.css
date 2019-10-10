@@ -1,0 +1,29 @@
+.items-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.item {
+  /* margin: 50px 0px; */
+  color: grey;
+}
+
+.item-active {
+  color: black;
+}
+
+.line {
+  width: 2px;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.line-active {
+  background-color: red;
+}
+
+.item:first-child,
+.item:last-child {
+  margin: 0;
+}
